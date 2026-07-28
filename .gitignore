@@ -10,7 +10,7 @@ __pycache__/
 **/*.txt
 **/*.yaml
 site/**
-**/egg-info
+**/*.egg-info
 **/*.vtk
 **/*.vtu
 **/*.msh
