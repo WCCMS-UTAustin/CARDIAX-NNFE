@@ -13,7 +13,7 @@ import jax
 print(jax.devices())
 ```
 
-Once the `jax` installation is working, the easiest option is to build all the dependencies through a conda environment using `environment.yaml` which also installs JAX with CUDA. These files set up the pypi dependecies. `CARDIAX` isn't yet pypi, so you can install it through github at [CARDIAX](https://github.com/WCCMS-UTAustin/CARDIAX). Then to install `nnfe`, you must clone and go inside the directory `../NNFE` to run
+Once the `jax` installation is working, the easiest option is to build all the dependencies through a conda environment using `environment.yaml` which also installs JAX with CUDA. These files set up the pypi dependecies. `CARDIAX` isn't yet pypi, so you can install it through github at [CARDIAX](https://github.com/WCCMS-UTAustin/CARDIAX). Then to install `nnfe`, you must clone and go inside the directory `../CARDIAX-NNFE` to run
 
 ```
 pip install -e .

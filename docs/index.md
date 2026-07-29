@@ -8,7 +8,7 @@
 GPU-accelerated Neural Network Finite Element for parameterized cardiac mechanics — a scientific machine learning framework for learning parameter-to-solution maps defined by PDE residuals, built natively on JAX with CARDIAX as the finite element backend.
 
 [Get Started](tutorials/overview.md){ .md-button .md-button--primary }
-[View on GitHub](https://github.com/WCCMS-UTAustin/NNFE){ .md-button }
+[View on GitHub](https://github.com/WCCMS-UTAustin/CARDIAX-NNFE){ .md-button }
 
 </div>
 ---
@@ -89,6 +89,6 @@ print(jax.devices())  # Should show CUDA devices
 
 ## Citation
 
-If you use CARDIAX-NNFE in your research, please cite [`CITATION.cff`](https://github.com/WCCMS-UTAustin/NNFE/blob/main/CITATION.cff).
+If you use CARDIAX-NNFE in your research, please cite [`CITATION.cff`](https://github.com/WCCMS-UTAustin/CARDIAX-NNFE/blob/main/CITATION.cff).
 
 *Full citation details will be updated upon paper acceptance in SoftwareX.*
