@@ -886,7 +886,7 @@
 <h1 id="configuration-files">Configuration Files<a class="headerlink" href="#configuration-files" title="Permanent link">¤</a></h1>
 <p>Configurations for CARDIAX-NNFE are a user friendly way of training a network on basic solution mappings. While they aren't required, the configuration structure is what allows for reproducibility, which is crucial for developing new methodoligies. The config files that then generate the appropriate managers can be used independently as well.</p>
 <p>The main structure for NNFE follows the figure below. A master configuration file is created to begin. This file is what generates <code>NNFE</code> through the <code>from_yaml</code> class method. Then in the <code>from_yaml</code> function, the yaml file parses into appropriate subdictionaries to spawn the relevant Manager objects. These objects are then passed to <code>NNFE</code>, initializing the object.</p>
-<p><img alt="alt text" src="../../figures/tutorials/configs.png" /></p>
+<p><img alt="alt text" src="../figures/tutorials/configs.png" /></p>
 <h2 id="configuration-walkthrough">Configuration Walkthrough<a class="headerlink" href="#configuration-walkthrough" title="Permanent link">¤</a></h2>
 <p>Here, we will explain the generic aspects of each component of the configuration files. While the configuration file can be just one large yaml file, we broke it into three pieces for convience. There is the main NNFE file that handles more of the high level architecture. Then this main file points to the FE and ML configuration files, so these can be manipulated more easily. For more concrete examples, please look at the demos.</p>
 <h3 id="project">Project<a class="headerlink" href="#project" title="Permanent link">¤</a></h3>
@@ -1110,8 +1110,6 @@
       <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
       
         <script src="../../javascripts/mathjax.js"></script>
-      
-        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
       
         <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
       
